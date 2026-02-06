@@ -1,0 +1,84 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0b132b;
+  color: white;
+}
+
+/* Navbar */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+  background: #0b132b;
+}
+
+.logo {
+  color: #4cc9f0;
+}
+
+.navbar ul {
+  display: flex;
+  list-style: none;
+  gap: 25px;
+}
+
+.navbar ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+.login-btn {
+  background: #4cc9f0;
+  border: none;
+  padding: 8px 18px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+/* Hero Section */
+.hero {
+  height: 90vh;
+  background: url("https://images.unsplash.com/photo-1518441902113-fad6f4f3f47e")
+    center/cover no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-box {
+  background: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.hero-box h1 {
+  font-size: 42px;
+  margin-bottom: 10px;
+}
+
+.hero-box p {
+  margin-bottom: 20px;
+  color: #ddd;
+}
+
+.shop-btn {
+  background: #4cc9f0;
+  border: none;
+  padding: 12px 25px;
+  border-radius: 25px;
+  cursor: pointer;
+}
+
+/* Pages */
+.page {
+  padding: 50px;
+  text-align: center;
+}
